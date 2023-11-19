@@ -9,11 +9,12 @@ function NavbarComponent(props) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    const handleLogout=()=>{
+    const handleLogout = () => {
+        sessionStorage.removeItem('user');
+        props.onLogout();
         window.location.reload();
-        props.user = null;
-    }
-
+      };
+    
     const checkout = async () => {
         await fetch('http://localhost:4000/checkout', {
             method: "POST",

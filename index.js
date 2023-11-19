@@ -9,23 +9,6 @@ app.use(express.json());
 
 
 app.post("/checkout", async (req, res) => {
-    /*
-    req.body.items
-    [
-        {
-            id: 1,
-            quantity: 3
-        }
-    ]
-
-    stripe wants
-    [
-        {
-            price: 1,
-            quantity: 3
-        }
-    ]
-    */
     console.log(req.body);
     const items = req.body.items;
     let lineItems = [];

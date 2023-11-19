@@ -1,8 +1,7 @@
-// ProductCard.js
 import { Card, Button, Form, Row, Col } from 'react-bootstrap';
 import { CartContext } from '../CartContext';
 import { useContext } from 'react';
-import './ProductCard.css'; // Import the CSS file
+import './ProductCard.css'; 
 
 function ProductCard(props) {
     const product = props.product;

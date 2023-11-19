@@ -1,7 +1,7 @@
 import {Row, Col} from 'react-bootstrap';
 import { productsArray } from '../productsStore';
 import ProductCard from '../components/ProductCard';
-// [{... }, {... }, {... }]
+
 function Store() {
 
     return (
