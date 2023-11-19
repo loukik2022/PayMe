@@ -31,7 +31,7 @@ SaaS Pricing plan app to accept payments using Stripe Integration
 
 ## Test
 
-To Test payment, use card details as:
-Card number - 4242 4242 4242 4242
-Date - 12/34
-CVC - Any three-digit number
+To test payment, use card details as:
+- Card number - 4242 4242 4242 4242
+- Date - 12/34
+- CVC - Any three-digit number
