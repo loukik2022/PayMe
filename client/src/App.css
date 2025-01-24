@@ -1,20 +1,14 @@
-.signInButton {
+.subs-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px auto;
-    color: black;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px; 
-    cursor: pointer;
-}
-.signInButton:hover {
-    background-color: #e1e1e1;
-}
-
-.googleLogo {
-    margin-right: 10px;
-    height: 20px;
-    width: 20px;
-}
+    justify-content: space-between; /* Distributes space between cards */
+    gap: 20px; /* Adds space between cards */
+    margin-top: 10%;
+  }
+  
+  .sub-card {
+    flex: 1; /* Each card will take up equal space */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
